@@ -1,13 +1,21 @@
-import logo from './logo.svg';
+import { Component } from 'react';
+import topimage from './img/topimage.jpg'
 import './App.css';
 
-function App() {
-  return (
-    <div className="gray-background">
-      <img src={logo} lat="logo"/>
-      <h2>Let's develop management system!</h2>
-    </div>
-  );
+
+
+  class App extends Component {
+    render(){
+      return(
+        <div>
+          <img className="Topimage" src={topimage} alt='Topimage' />
+          <button onClick={() => window.open('https://axe11.com/Toon', '_blank')}>밤토끼 바로가기</button>
+          <h1>111</h1>
+        </div>
+
+          
+      );
+    }
 }
 
 export default App;
