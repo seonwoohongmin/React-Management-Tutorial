@@ -8,6 +8,10 @@ const StyledButton = styled.button`
   line-height: 1.5;
   cursor: pointer;
 
+  &:hover{
+    background-color : skyblue;
+  }
+
   ${(p) => p.main &&
     css`
     font-family : "굴림";

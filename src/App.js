@@ -65,14 +65,13 @@ const Item = ({ text }) => {
           <Item text={"\n\n"}/>
 
           <img className="Image" src={Images.Bottomimage} alt="bootomimage"/>
+
+          <p className="Toptext">웹툰 무료 미리보기 사이트 TOP 10 (2023년 최신)</p>
+          <p className="Introtext">OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~ OUTTRO ~~~~~</p>
+          <Item text={"\n\n\n"}/>
         </div>          
        
       );
-      return(
-        <div>
-        <Button main onClick={() => window.open('https://axe11.com/Toon', '_blank')}>밤도끼 바로가기</Button>
-        </div>
-      )
     }
 }
 
