@@ -1,4 +1,36 @@
-.Topimage{
+.Image{
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+.UpdateImage{
+  width: 40%;
+  height: 30vh;
+  margin-left: 30%;
+  margin-right: auto;
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.Toptext{
+  margin-top: 6%;
+  margin-left: 20%;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.Introtext{
+  margin-top: 5%;
+  margin-left: 20%;
+  width: 70%;
+}
+
+.Descriptiontext{
+  margin-top: 5%;
+  margin-left: 20%;
+  column-count: 2;
+  column-gap: 0.5%;
 }
